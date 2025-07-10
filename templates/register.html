@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+  <style>
+    body {
+      background: #fff;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .login {
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      color: #001f3f;
+      margin-bottom: 20px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      box-sizing: border-box;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #001f3f;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #003366;
+    }
+
+    a {
+      color: #001f3f;
+      font-size: 14px;
+      display: block;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="login">
+ <h1>Registro de Usuario</h1>
+
+<form action="{{ url_for('register') }}" method="post">
+  <input type="text" name="username" placeholder="Elige un nombre de usuario" required>
+  <input type="password" name="password" placeholder="Crea una contraseña" required>
+  <button type="submit">Registrarse</button>
+</form>
+
+<a href="{{ url_for('login') }}">¿Ya tienes cuenta? Inicia sesión</a>
+  </div>
+</body>
+</html>
