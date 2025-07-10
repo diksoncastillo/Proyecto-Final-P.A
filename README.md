@@ -50,6 +50,7 @@ Quiero agradecer a:
 ## Referencias Bibliográficas
 
 1. HolaMundo: "Aprende HTML ahora! curso completo GRATIS desde cero" https://www.youtube.com/watch?v=MJkdaVFHrto
+2. Digital Sreeni: "268 - How to deploy your trained machine learning model into a local web application?" https://www.youtube.com/watch?v=bluclMxiUkA
 2. Flask Documentation: https://flask.palletsprojects.com/
 3. Bootstrap Documentation: https://getbootstrap.com/
 4. Dog Dager: "Html en 5 minutos | Te lo explico así nomás" https://www.youtube.com/watch?v=EvKm8yhM7V8
@@ -62,3 +63,5 @@ Quiero agradecer a:
 
 1. Clona el repositorio:
    git clone https://github.com/diksoncastillo/Proyecto-Final-P.A.git
+
+
