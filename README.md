@@ -1,7 +1,9 @@
 # Proyecto Final Programacion Avanzada
+
+---
 ## Video
 
-Puedes encontrar el video en este link: https://drive.google.com/file/d/1b2H15vjZ2F8MnjRpN6ExyeKy73Msl3xZ/view?usp=drive_link
+-Puedes encontrar el video en este link: https://drive.google.com/file/d/1b2H15vjZ2F8MnjRpN6ExyeKy73Msl3xZ/view?usp=drive_link
 ---
 ## Grupo de Trabajo
 
